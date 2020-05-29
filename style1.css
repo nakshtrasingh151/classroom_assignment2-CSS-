@@ -1,0 +1,193 @@
+/*{
+    margin: 0;
+    padding: 0;
+}*/
+html, body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(images/background.JPG);
+    background-repeat: repeat;
+    font-family: Century Gothic;
+}
+/*------Navigation Bar-------*/
+#nav-bar{
+    position: sticky;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-left: 50px;
+    z-index: 5;
+    height: 100px;
+    top: 10px;
+    display: inline-block;
+}
+nav {
+    display: inline-block;
+}
+
+.navbar a{
+    
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    /*font-size: 40px;*/
+    border: 2px solid ;
+    padding: 10px 20px;
+    border-color: gold;
+    border-radius: 30px;
+    z-index:  10;
+    margin-top: 30px;
+}
+.navbar a:hover{
+    background-color: gold;
+    border-color: black;
+}
+#menu ul {
+    display: inline-block;
+    white-space: nowrap;
+}
+#menu li{
+    display: inline-block;
+    text-align: center;
+    width:  25%;
+}
+#menu li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+#menu li a:hover{
+    background: goldenrod;
+    color: white;
+    border-radius: 20%;
+    padding: 10px 0;
+}
+/*------Blog Index------*/
+
+#blog-index{
+    margin: 30px ;
+    text-align: center;
+}
+#box1{
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: 3px double black;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./img/cricket.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: pink;
+    position: relative;
+}
+
+#box2{
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: 3px double black;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./img/football.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#box3{
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: 3px double black;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./img/basketball.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#inner-div{
+    position: absolute;
+    background:  rgba(124, 123, 123, 0.664);
+    height: 200px;
+    width: 400px;
+    top: 350px;
+}
+#blog-index .links {
+    text-decoration: underline;
+    cursor: pointer;
+    /*color: rgb(24, 26, 24);*/
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: oblique;
+}
+#blog-index p{
+    font-size: 15px;
+    color: white;
+}
+#blog-index .read-more{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
+}
+#blog-index .read-more:hover{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2px 8px;
+    color: rgba(124, 123, 123, 0.664);
+}
+
+/*----About Us-----*/
+#about{
+    width: 100%;
+    height: 250px;
+    text-align: center  ;
+    background: rgb(211, 209, 209);
+}
+#about-us{
+    margin-top: 50px 10px;
+    padding: 30px 10px;
+}
+#about-us span{
+    font-size: 40px;
+    text-decoration:darkgoldenrod underline;
+}
+#about-us p{
+    padding: 20px 30px;
+    font-size: 15px;
+}
+
+/*----- Blog Pages Styling-------*/
+#blogs span{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+#blog-list{
+    padding: 20px 30px;
+    padding-right: 60px;
+}
+#blog-list li p{
+    text-align: justify;
+}
+
+#blog-list li .read-more{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(143, 43, 43);
+
+}
+#blog-list li .read-more:hover{
+    background-color: rgb(71, 67, 67);
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2px 8px;
+    color: white;
+}
